@@ -17,8 +17,17 @@ include_once "header.php";
       <input type="submit" name="submit" class="num2">
 
     </form>
+    <br>
+    <h4>Coduri active:</h4>
+    <?php
+    include_once "config.php"; 
+    $sql =mysqli_query($conn, "SELECT * FROM codes WHERE active = 0");
+    while($row=mysqli_fetch_assoc($sql))
+    {
+      echo $row['cod']." ";
+    }
+    ?>
     
-  
 </div>
 
 <?php
