@@ -54,7 +54,7 @@ searchBtn.onclick = ()=>{
     let xhr = new XMLHttpRequest();
     
     //creating XML object
-    xhr.open("POST", "serch.php", true);
+    xhr.open("POST", "php/serch.php", true);
     xhr.onload = ()=>{
        if(xhr.readyState === XMLHttpRequest.DONE)
        {
@@ -64,7 +64,7 @@ searchBtn.onclick = ()=>{
                {
                 let phr = new XMLHttpRequest();
                 //creating XML object
-                phr.open("POST", "expunere.php", true);
+                phr.open("POST", "php/expunere.php", true);
                 phr.onload = ()=>{
                    if(phr.readyState === XMLHttpRequest.DONE)
                    {
@@ -108,7 +108,7 @@ console.log(i);
 
     let xhr = new XMLHttpRequest();
     //creating XML object
-    xhr.open("POST", "expunere.php", true);
+    xhr.open("POST", "php/expunere.php", true);
     xhr.onload = ()=>{
        if(xhr.readyState === XMLHttpRequest.DONE)
        {

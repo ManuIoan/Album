@@ -70,7 +70,7 @@ if($nume !='Toti')
      
      <div class="carte">
         <div class="poza">
-            <img src="../images/'. $row['img'] .'" alt="">
+            <img src="images/'. $row['img'] .'" alt="">
         </div>
        
         <div class="tit">
@@ -83,7 +83,7 @@ if($nume !='Toti')
 
             
             <div class="facultate">
-                <img src="../lg1.jpg" alt="" class="fac">
+                <img src="lg1.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>Facultate</p>
                     <h4>'.$row2['n_studii'].'</h4>
@@ -92,7 +92,7 @@ if($nume !='Toti')
             </div>
             
             <div class="facultate">
-                <img src="../year.jpg" alt="" class="fac">
+                <img src="year.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>An</p>
                     <h4>'.$row2['an'].'</h4>
@@ -101,7 +101,7 @@ if($nume !='Toti')
             </div>
              
             <div class="facultate">
-                <img src="../grd.jpg" alt="" class="fac">
+                <img src="grd.jpg" alt="" class="fac">
                  <div class="scris">
                     <p>Medie</p>
                     <h4>'.$row2['medie'].'</h4>
@@ -144,7 +144,7 @@ if($an != 'Toti')
      
      <div class="carte">
         <div class="poza">
-            <img src="../images/'. $row2['img'] .'" alt="">
+            <img src="images/'. $row2['img'] .'" alt="">
         </div>
        
         <div class="tit">
@@ -157,7 +157,7 @@ if($an != 'Toti')
 
             
             <div class="facultate">
-                <img src="../lg1.jpg" alt="" class="fac">
+                <img src="lg1.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>Facultate</p>
                     <h4>'.$sql['n_studii'].'</h4>
@@ -166,7 +166,7 @@ if($an != 'Toti')
             </div>
             
             <div class="facultate">
-                <img src="../year.jpg" alt="" class="fac">
+                <img src="year.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>An</p>
                     <h4>'.$sql['an'].'</h4>
@@ -175,7 +175,7 @@ if($an != 'Toti')
             </div>
              
             <div class="facultate">
-                <img src="../grd.jpg" alt="" class="fac">
+                <img src="grd.jpg" alt="" class="fac">
                  <div class="scris">
                     <p>Medie</p>
                     <h4>'.$sql['medie'].'</h4>
@@ -204,7 +204,7 @@ if($an != 'Toti')
      
      <div class="carte">
         <div class="poza">
-            <img src="../images/'. $row2['img'] .'" alt="">
+            <img src="images/'. $row2['img'] .'" alt="">
         </div>
        
         <div class="tit">
@@ -217,7 +217,7 @@ if($an != 'Toti')
 
             
             <div class="facultate">
-                <img src="../lg1.jpg" alt="" class="fac">
+                <img src="lg1.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>Facultate</p>
                     <h4>'.$sql['n_studii'].'</h4>
@@ -226,7 +226,7 @@ if($an != 'Toti')
             </div>
             
             <div class="facultate">
-                <img src="../year.jpg" alt="" class="fac">
+                <img src="year.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>An</p>
                     <h4>'.$sql['an'].'</h4>
@@ -235,7 +235,7 @@ if($an != 'Toti')
             </div>
              
             <div class="facultate">
-                <img src="../grd.jpg" alt="" class="fac">
+                <img src="grd.jpg" alt="" class="fac">
                  <div class="scris">
                     <p>Medie</p>
                     <h4>'.$sql['medie'].'</h4>
@@ -288,7 +288,7 @@ else
      
      <div class="carte">
         <div class="poza">
-            <img src="../images/'. $row2['img'] .'" alt="">
+            <img src="images/'. $row2['img'] .'" alt="">
         </div>
        
         <div class="tit">
@@ -301,7 +301,7 @@ else
 
             
             <div class="facultate">
-                <img src="../lg1.jpg" alt="" class="fac">
+                <img src="lg1.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>Facultate</p>
                     <h4>'.$sql['n_studii'].'</h4>
@@ -310,7 +310,7 @@ else
             </div>
             
             <div class="facultate">
-                <img src="../year.jpg" alt="" class="fac">
+                <img src="year.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>An</p>
                     <h4>'.$sql['an'].'</h4>
@@ -319,7 +319,7 @@ else
             </div>
              
             <div class="facultate">
-                <img src="../grd.jpg" alt="" class="fac">
+                <img src="grd.jpg" alt="" class="fac">
                  <div class="scris">
                     <p>Medie</p>
                     <h4>'.$sql['medie'].'</h4>
@@ -348,7 +348,7 @@ else
      
      <div class="carte">
         <div class="poza">
-            <img src="../images/'. $row2['img'] .'" alt="">
+            <img src="images/'. $row2['img'] .'" alt="">
         </div>
        
         <div class="tit">
@@ -361,7 +361,7 @@ else
 
             
             <div class="facultate">
-                <img src="../lg1.jpg" alt="" class="fac">
+                <img src="lg1.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>Facultate</p>
                     <h4>'.$sql['n_studii'].'</h4>
@@ -370,7 +370,7 @@ else
             </div>
             
             <div class="facultate">
-                <img src="../year.jpg" alt="" class="fac">
+                <img src="year.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>An</p>
                     <h4>'.$sql['an'].'</h4>
@@ -379,7 +379,7 @@ else
             </div>
              
             <div class="facultate">
-                <img src="../grd.jpg" alt="" class="fac">
+                <img src="grd.jpg" alt="" class="fac">
                  <div class="scris">
                     <p>Medie</p>
                     <h4>'.$sql['medie'].'</h4>
@@ -413,7 +413,7 @@ else
 if($lm != 'Licenta/Master')
 {   
     $output = "";
-    $sql3= mysqli_query($conn, "SELECT * from codes WHERE n_studii = '{$lm}'");
+    $sql3= mysqli_query($conn, "SELECT * from codes WHERE n_studii = '{$lm}' AND active = 1");
     
     while($sql = mysqli_fetch_assoc($sql3))
     {
@@ -428,7 +428,7 @@ if($lm != 'Licenta/Master')
      
      <div class="carte">
         <div class="poza">
-            <img src="../images/'. $row2['img'] .'" alt="">
+            <img src="images/'. $row2['img'] .'" alt="">
         </div>
        
         <div class="tit">
@@ -441,7 +441,7 @@ if($lm != 'Licenta/Master')
 
             
             <div class="facultate">
-                <img src="../lg1.jpg" alt="" class="fac">
+                <img src="lg1.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>Facultate</p>
                     <h4>'.$sql['n_studii'].'</h4>
@@ -450,7 +450,7 @@ if($lm != 'Licenta/Master')
             </div>
             
             <div class="facultate">
-                <img src="../year.jpg" alt="" class="fac">
+                <img src="year.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>An</p>
                     <h4>'.$sql['an'].'</h4>
@@ -459,7 +459,7 @@ if($lm != 'Licenta/Master')
             </div>
              
             <div class="facultate">
-                <img src="../grd.jpg" alt="" class="fac">
+                <img src="grd.jpg" alt="" class="fac">
                  <div class="scris">
                     <p>Medie</p>
                     <h4>'.$sql['medie'].'</h4>
@@ -488,7 +488,7 @@ if($lm != 'Licenta/Master')
      
      <div class="carte">
         <div class="poza">
-            <img src="../images/'. $row2['img'] .'" alt="">
+            <img src="images/'. $row2['img'] .'" alt="">
         </div>
        
         <div class="tit">
@@ -501,7 +501,7 @@ if($lm != 'Licenta/Master')
 
             
             <div class="facultate">
-                <img src="../lg1.jpg" alt="" class="fac">
+                <img src="lg1.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>Facultate</p>
                     <h4>'.$sql['n_studii'].'</h4>
@@ -510,7 +510,7 @@ if($lm != 'Licenta/Master')
             </div>
             
             <div class="facultate">
-                <img src="../year.jpg" alt="" class="fac">
+                <img src="year.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>An</p>
                     <h4>'.$sql['an'].'</h4>
@@ -519,7 +519,7 @@ if($lm != 'Licenta/Master')
             </div>
              
             <div class="facultate">
-                <img src="../grd.jpg" alt="" class="fac">
+                <img src="grd.jpg" alt="" class="fac">
                  <div class="scris">
                     <p>Medie</p>
                     <h4>'.$sql['medie'].'</h4>

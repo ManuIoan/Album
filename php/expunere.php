@@ -58,7 +58,7 @@ while($row = mysqli_fetch_assoc($sql))
      
      <div class="carte">
         <div class="poza">
-            <img src="../images/'. $row['img'] .'" alt="">
+            <img src="images/'. $row['img'] .'" alt="">
         </div>
        
         <div class="tit">
@@ -71,7 +71,7 @@ while($row = mysqli_fetch_assoc($sql))
 
             
             <div class="facultate">
-                <img src="../lg1.jpg" alt="" class="fac">
+                <img src="lg1.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>Facultate</p>
                     <h4>'.$row2['n_studii'].'</h4>
@@ -80,7 +80,7 @@ while($row = mysqli_fetch_assoc($sql))
             </div>
             
             <div class="facultate">
-                <img src="../year.jpg" alt="" class="fac">
+                <img src="year.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>An</p>
                     <h4>'.$row2['an'].'</h4>
@@ -89,7 +89,7 @@ while($row = mysqli_fetch_assoc($sql))
             </div>
              
             <div class="facultate">
-                <img src="../grd.jpg" alt="" class="fac">
+                <img src="grd.jpg" alt="" class="fac">
                  <div class="scris">
                     <p>Medie</p>
                     <h4>'.$row2['medie'].'</h4>
@@ -118,7 +118,7 @@ while($row = mysqli_fetch_assoc($sql))
      
      <div class="carte">
         <div class="poza">
-            <img src="../images/'. $row['img'] .'" alt="">
+            <img src="images/'. $row['img'] .'" alt="">
         </div>
        
         <div class="tit">
@@ -131,7 +131,7 @@ while($row = mysqli_fetch_assoc($sql))
 
             
             <div class="facultate">
-                <img src="../lg1.jpg" alt="" class="fac">
+                <img src="lg1.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>Facultate</p>
                     <h4>'.$row2['n_studii'].'</h4>
@@ -140,7 +140,7 @@ while($row = mysqli_fetch_assoc($sql))
             </div>
             
             <div class="facultate">
-                <img src="../year.jpg" alt="" class="fac">
+                <img src="year.jpg" alt="" class="fac">
                 <div class="scris">
                     <p>An</p>
                     <h4>'.$row2['an'].'</h4>
@@ -149,7 +149,7 @@ while($row = mysqli_fetch_assoc($sql))
             </div>
              
             <div class="facultate">
-                <img src="../grd.jpg" alt="" class="fac">
+                <img src="grd.jpg" alt="" class="fac">
                  <div class="scris">
                     <p>Medie</p>
                     <h4>'.$row2['medie'].'</h4>

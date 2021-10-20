@@ -1,9 +1,15 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stud3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-include_once "header.php";
 
-
-?>
+</head>
 
 
 <body>
@@ -48,7 +54,7 @@ include_once "header.php";
 
 
    <div class="activare">
-  <a href="cod.php"> Activate your profile here</a>
+  <a href="php/cod.php"> Activate your profile here</a>
 </div>
 
 <!-- 
@@ -84,7 +90,7 @@ function myFunction(){
 
 
 
-<script src = "../javascript/stud.js"></script>
+<script src = "javascript/stud.js"></script>
     
 </body>
 </html>
