@@ -1,0 +1,48 @@
+<div class="four">
+      <div class="carte">
+        <div class="poza">
+            <img src="../john.jpg" alt="">
+        </div>
+       
+        <div class="tit">
+            <p>Manu Ioan</p>
+        </div>
+
+        <div class="trei">
+
+            
+            <div class="facultate">
+                <img src="../lg1.jpg" alt="" class="fac">
+                <div class="scris">
+                    <p>Facultate</p>
+                    <h4>Licenta</h4>
+                </div>
+                
+            </div>
+            
+            <div class="facultate">
+                <img src="../lg1.jpg" alt="" class="fac">
+                <div class="scris">
+                    <p>An</p>
+                    <h4>Licenta</h4>
+                </div>
+                
+            </div>
+             
+            <div class="facultate">
+                <img src="../lg1.jpg" alt="" class="fac">
+                 <div class="scris">
+                    <p>Medie</p>
+                    <h4>Licenta</h4>
+                 </div>
+                
+             </div>
+
+
+
+        </div>
+
+     </div>
+
+    
+    </div>

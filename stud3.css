@@ -1,0 +1,412 @@
+*
+{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+html{
+font-size: 20px;
+background-color: #eeeff0;
+
+
+}
+.man
+{   height: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 20px;
+    
+}
+.man input{
+    outline: none;
+}
+.search
+{   
+    height: 160px;
+    
+    background-color: white;
+    
+    border: 1px solid #d8dadb;
+    margin-top: 20px;
+}
+.mere
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;  
+    height: 35px;
+}
+label{
+    font-weight: 600;
+    color:rgb(121, 120, 120) ;
+}
+.col
+{
+    padding-left: 20px;
+}
+#fname
+{
+    height: 40px;
+    width:110px;
+    padding-left: 10px;
+    color: rgb(141, 140, 138);
+    border: none;
+    background-color: #eeeff0;    
+}
+#si{
+    height: 40px;
+    width:110px; 
+    border: none;
+    color: white;
+    background-color: green;
+}
+.mars
+{
+    width: 60%;
+    margin: auto;
+}
+.found{
+color: rgb(141, 140, 138);
+font-size: 1.5rem;
+height: 90px;
+
+display: flex;
+    
+    align-items: center;
+}
+.carte
+{
+    width: 24%;
+    height:500px;
+    background-color: white;
+    border: 1px solid #d8dadb;
+
+}
+
+.four
+{  
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    
+    border-radius: 50%;
+    
+}
+.poza
+{
+    height:55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tit
+{
+    text-align: center;
+    height: 5%;
+    color: rgb(141, 140, 138);
+    font-weight: bold;
+}
+.fac
+{
+    width: 50px;
+    height: 50px;
+    
+
+}
+.trei
+{
+    height: 40%;
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
+.facultate
+{
+    display: flex;
+    height: 30%;
+    
+}
+.scris
+{   height:100%;
+   justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;    
+}
+.activare
+{
+    position: absolute;
+    right: 75px;
+    top: 40vh;
+    width: 200px;
+    height: 100px;
+    
+    text-align: center;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+/*Code for the Code*/
+.scriere-cod{
+    
+    display: flex;
+    flex-direction: column;
+    
+   
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.form
+{
+    display: flex;
+    justify-content: space-between;
+}
+.scriere-cod p{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.cod .num1{
+    height: 50px;
+    width: 200px;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.cod .num2
+{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(75, 73, 73);
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 0 10px 10px 0;
+}
+.scriere-cod form{
+    display: flex;
+}
+
+/*
+FORMULAR
+*/
+
+.f222
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.f222 .marie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    background-color: rgb(222, 231, 229);
+    border: 10px solid rgba(155, 147, 147, 0.4);
+            border-radius: 5px;
+     
+}
+.f222 .moncher
+{
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.f222 p{
+    color: black;
+    font-size: 2.2rem;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.anarhie
+{
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+    
+}
+.f222 .filis
+{
+    width: 300px;
+    font-size: .9rem;
+    margin-bottom: 20px;
+    
+}
+.f222 .sub
+{
+    width:300px;
+    border:none;
+    background-color: rgb(75, 73, 73);
+    color: white;
+    height: 40px;
+
+}
+
+/*
+Prezentare
+*/
+.uio
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh; 
+}
+.detail
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 800px;
+    background-color: rgb(222, 231, 229);
+    border: 10px solid rgba(155, 147, 147, 0.4);
+            border-radius: 5px;
+    
+}
+.detail img{
+    
+    border-radius: 0;
+    max-width: 400px;
+    max-height: 400px;
+}
+.detail span{
+    font-weight: bold;
+}
+.nota{
+    margin: 50px 0px;
+}
+.nota p{
+    text-align: center;
+}
+.nota .macs
+{
+    font-weight: bold;
+}
+.parere {
+text-align: center;
+}
+/*
+Loader
+*/
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 10s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 10s infinite ease-in;
+  }
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
+
+
+  @media (max-width:1500px) and (min-width:100px) 
+{
+html{
+    
+}
+
+.carte
+{
+    width: 300px;
+    height:500px;
+    background-color: white;
+    border: 1px solid #d8dadb;
+
+}
+
+.mars
+{
+    width: 80%;
+    margin: auto;
+}
+.activare{
+    position: relative;
+    background-color: red;
+
+ 
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    
+    text-align: center;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+
+}
+
+}
