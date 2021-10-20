@@ -367,7 +367,82 @@ Loader
   }
 
 
-  @media (max-width:1500px) and (min-width:100px) 
+  @media (max-width:1500px) and (min-width:400px) 
+{
+html{
+    
+}
+
+.carte
+{
+    width: 300px;
+    height:500px;
+    background-color: white;
+    border: 1px solid #d8dadb;
+
+}
+
+.mars
+{
+    width: 90%;
+    margin: auto;
+}
+.activare{
+    position: relative;
+    background-color: red;
+
+ 
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    
+    text-align: center;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+
+}
+
+.f222 .marie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 600px;
+    background-color: rgb(222, 231, 229);
+    border: 10px solid rgba(155, 147, 147, 0.4);
+            border-radius: 5px;
+            
+     
+}
+
+.detail
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 800px;
+    background-color: rgb(222, 231, 229);
+    border: 0px;
+    
+}
+
+
+}
+
+
+
+
+@media (max-width:400px) and (min-width:100px) 
 {
 html{
     
@@ -438,3 +513,7 @@ html{
 
 
 }
+
+
+
+
